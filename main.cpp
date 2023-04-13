@@ -72,7 +72,7 @@ int main(){
                 cin >> container;
 
                 // Checking if answear is right
-                if (container == answears[k])
+                if (container == answears[k] || container == "ZSRS")
                 {
                     // If answear is right adds points for user
                     score += adding;
