@@ -20,12 +20,6 @@ Pytania zamnięte jednego wyboru
 
     np. A
 
-Pytania zamknięte wielokrotnego wyboru
-będą wczytywane do tablicy wielkości ilości możliwych odpowiedzi w formie 
-:
-    
-    A/C/E
-
 Za dobre odpowiedzi użytkownik będzie dostawał punkty których liczba będzie różna w zależnosci od trudności pytania w zakresie od ***1-10***
 
 #### Quiz zawiera 15 pytań, 3 pakiety po 5 pytań każdy pakiet oczekuje inny typ odpowiedzi
