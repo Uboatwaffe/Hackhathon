@@ -32,7 +32,7 @@ int main(){
     // Welcome
     cout << "-----------------------" << endl;
     cout << "Witamy w quizie!" << endl;
-    cout << "Dzisiejszy temat to: Misja 'KanaLy' | Misja 'Poczta'" << endl;
+    cout << "Dzisiejszy temat to: Misja 'Kanaly' | Misja 'Poczta'" << endl;
     cout << "Twoje punkty zostaly wczytane z konta masz ich aktualnie: " << allScore << endl;
     cout << "-----------------------" << endl;
 
