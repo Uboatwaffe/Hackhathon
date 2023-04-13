@@ -13,21 +13,24 @@ int main(){
 
     // Arrays
     // Questions
-    string db[] = {"O ktorej godzinie wybuchlo powstanie:\nA) W\nB) Y\nC) Z\nD) X","Czy ludnosc popierala powstanie:\nA) Tak\nB) Nie",
-    "Powstanie warszwskie bylo czescia planu Burza:\nA) Tak\nB) Nie","Z kim powstancy walczyli:\nA) ZSRR\nB) Wlochy\nC) III Rzesza\nD) Japonia"
-    ,"Ile osob zginelo:\nA)100-150tys\nB)500-600tys\nC)52-143tys\nD)160-210tys","Kiedy formalnie zostala zalozona poczta polowa:;","W jakim dniu wybuchlo powstanie:;",
-    "W ktorym dniu zakonczylo sie powstanie:;","W ktorym dniu polacy zdobyli niemiecki czolg - Panthere:;","W ktorym dniu zakonczyla sie rzez Woli:;"
-    ,"Kto byl dowodca Powstania Warszawsiego (bez pseudonimu)::","Jaki pseudonim mial Taduesz Komorowski::","Kto podpisal akt kapitulacji::"
+    string db[] = {"W kanalach bylo:\nA) Brudno\nB) Czysto\nC) Ladnie pachnialo\nD) Jasno","Czy ludnosc chetnie wchodzila do kanalow:\nA) Tak\nB) Nie",
+    "Harcerze w wiekszosci uzywali kanalow to przenoszenia paczek:\nA) Tak\nB) Nie","Z kim powstancy walczyli:\nA) ZSRR\nB) Wlochy\nC) III Rzesza\nD) Japonia"
+    ,"Ile osob zginelo w calym powstaniu:\nA)100-150tys\nB)500-600tys\nC)52-143tys\nD)160-210tys",
+    
+    "Kiedy formalnie zostala zalozona poczta harcerska:;","W jakim dniu wybuchlo powstanie:;",
+    "W ktorym dniu zakonczylo sie powstanie:;","W ktorym dniu powstancy zaczeli uzywac kanalow:;","Kiedy bylo najwieksze przepelnienie poczty polwej:;"
+
+    ,"Co Niemcy lubili wrzucac do kanalow::","Na jakiej ulicy znajdowal sie oddzial pocztowy Warszawa Poludnie::","Podaj pseudonim Przemyslawa Goreckiego::"
     ,"Do jakiej formacji nalezal glowny dowodca sil tlumiacych powstanie::","Jakie panstwo wstrzymalo ofensywe ze wzgledu na powstanie::"};
 
     // Answears
-    string answears[] = {"A","A","A","C","D","14.08.1944","1.08.1944","2.10.1944","2.08.1944","12.08.1944","ANTONI_CHRUSCIEL",
-    "BOR","TADUESZ_KOMOROWSKI","SS","ZSRR"};
+    string answears[] = {"A","B","A","C","D","4.08.1944","1.08.1944","2.10.1944","11.08.1944","13.08.1944","GRANATY",
+    "WILCZA","KUROPATWA","SS","ZSRR"};
 
     // Welcome
     cout << "-----------------------" << endl;
     cout << "Witamy w quizie!" << endl;
-    cout << "Dzisiejszy temat to: Powstanie Warszawskie" << endl;
+    cout << "Dzisiejszy temat to: Misja 'Kanały' | Misja 'Poczta'" << endl;
     cout << "Twoje punkty zostaly wczytane z konta masz ich aktualnie: " << allScore << endl;
     cout << "-----------------------" << endl;
 
@@ -84,7 +87,7 @@ int main(){
         allScore += score;
 
         // Shows points to user
-        cout << "Twoj wynik z tego quizu : " << score << " na 90" << endl << "Twoje wszystkie punkty: " << allScore;
+        cout << "Twoj wynik z tego quizu : " << score << " na 90" << endl << "Twoje wszystkie punkty: " << allScore << endl;
     }else
         // Redirects user to main menu
         cout << "Zostaniesz przeniesiony do strony glownej" << endl;
