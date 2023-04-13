@@ -4,6 +4,8 @@ using namespace std;
 
 int main(){
     // Quiz by VILO from Bydgoszcz
+    // ----!!!This is final version!!!----
+
     // Variables
     string container;
     int choice;
@@ -30,7 +32,7 @@ int main(){
     // Welcome
     cout << "-----------------------" << endl;
     cout << "Witamy w quizie!" << endl;
-    cout << "Dzisiejszy temat to: Misja 'Kanały' | Misja 'Poczta'" << endl;
+    cout << "Dzisiejszy temat to: Misja 'KanaLy' | Misja 'Poczta'" << endl;
     cout << "Twoje punkty zostaly wczytane z konta masz ich aktualnie: " << allScore << endl;
     cout << "-----------------------" << endl;
 
