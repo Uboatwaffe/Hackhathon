@@ -87,5 +87,7 @@ int main(){
         cout << "Twoj wynik z tego quizu : " << score << " na 90" << endl << "Twoje wszystkie punkty: " << allScore;
     }else
         // Redirects user to main menu
-        cout << "Zostaniesz przeniesiony do strony glownej";
+        cout << "Zostaniesz przeniesiony do strony glownej" << endl;
+    
+    cout << "-----------------------" << endl;
 }
