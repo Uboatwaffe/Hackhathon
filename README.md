@@ -29,4 +29,4 @@ Za dobre odpowiedzi użytkownik będzie dostawał punkty których liczba będzie
 
 #### Maksymalna liczba punktów uzyskana z jednego quizu to 90ptk
 
-### Quiz będzie ogólno dostępny dla wszystkich ludzi
+### Quiz będzie ogólno dostępny dla wszystkich użytkowników
